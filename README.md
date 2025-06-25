@@ -20,7 +20,9 @@
 
 `- npm run dev`
 
+
 ---
+
 
 ## Want It Entails
 
@@ -30,7 +32,9 @@ This Proof of Concept showcases real-time filtering, CSV export, and PO expiry t
 ## 🔗 Live Demo
 👉 [View Live Site](https://pomanagement-poc.vercel.app/)
 
+
 ---
+
 
 ## ✨ Features
 
@@ -43,7 +47,9 @@ This Proof of Concept showcases real-time filtering, CSV export, and PO expiry t
 - 🧱 Fully componentized (Sidebar, Navbar, Charts, Footer)
 - ⚙️ Easy to connect with backend/API in future
 
+
 ---
+
 
 ## 📦 Tech Stack
 
@@ -52,9 +58,12 @@ This Proof of Concept showcases real-time filtering, CSV export, and PO expiry t
 - **Icons:** react-icons
 - **Hosting:** Vercel
 
+
 ---
 
+
 ## 🖥️ Folder Structure
+
 
 ```
 public
@@ -72,7 +81,9 @@ src/
 └── index.css
 ```
 
+
 ---
+
 
 ## License
 
@@ -102,6 +113,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+---
+
+
 ## Author
 
 Built with ❤️ by Prince Daniel
+
+---
