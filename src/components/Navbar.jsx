@@ -7,20 +7,20 @@ import image from "../assets/image.png"
 export default function Navbar() {
   return (
     <>
-    <nav className="sticky top-0 z-50 backdrop-blur-xlg bg-white/50 shadow-md">
+    <nav className="bg-white shadow sticky top-0 z-50 backdrop-blur-md bg-opacity-80 h-[130px]">
     <Motion.div 
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.7, delay: 0.7 }}
-      className="flex justify-between items-center py-8 px-4 md:pt-2">
+      className="flex justify-between items-center px-4 h-full">
          {/* left section */}
-        <div className="text-xl flex  flex-col items-start gap-2 uppercase">
+        <div className="text-lg flex  gap-6 items-center uppercase overflow-hidden">
         <img
             src={logo}
             alt="Logo"
-            className="h-20 w-25 shadow-md"
+            className="h-[110px] w-auto shadow-md"
           />
-          <h1 className="font-display-500 text-gray-900">📊 Fixed Network financial dashboard</h1>
+          <h1 className="font-display font-semibold text-gray-900 leading-tight">📊 Fixed Network financial dashboard</h1>
         </div>
          {/* right section */}
         <div className="hidden md:flex items-center gap-4 text-sm text-gray-700">
