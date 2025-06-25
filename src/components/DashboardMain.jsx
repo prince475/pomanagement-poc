@@ -26,7 +26,7 @@ export default function DashboardMain() {
   });
 
   return (
-    <div className="flex">
+    <div className="flex font-display">
       <div className="flex flex-1 overflow-hidden bg-gray-100 text-gray-900">
         <div className="w-1/6 bg-white shadow-sm overflow-y-auto">
           <SidebarLeft filters={filters} setFilters={setFilters} />
