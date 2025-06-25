@@ -5,7 +5,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaLinkedin, FaTiktok } f
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 py-16 px-4 text-white">
+    <footer className="bg-black py-16 px-4 text-white">
       <Motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
