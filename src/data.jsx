@@ -10,7 +10,7 @@
       ReceiptingPercentage: 1,
       Status: "Closed",
       DaysToExpiry: 305,
-      ExpirationStatus: "PO has expired"
+      ExpirationStatus: "PO expiring soon"
     },
     {
       FY: "FY25",
@@ -21,6 +21,17 @@
       ReceiptingPercentage: 0.5,
       Status: "Open",
       DaysToExpiry: 28,
+      ExpirationStatus: "PO expiring soon"
+    },
+    {
+      FY: "FY25",
+      Category: "FFTX",
+      Supplier: "TECH MINDS",
+      POAmount: 600000,
+      AmountReceipted: 250000,
+      ReceiptingPercentage: 0.5,
+      Status: "Open",
+      DaysToExpiry: 10,
       ExpirationStatus: "PO expiring soon"
     },
     {
