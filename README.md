@@ -56,6 +56,7 @@ This Proof of Concept showcases real-time filtering, CSV export, and PO expiry t
 
 ## 🖥️ Folder Structure
 
+```
 public
 src/
 ├── assets/ # Images and logos
@@ -69,6 +70,7 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+```
 
 ---
 
