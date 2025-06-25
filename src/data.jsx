@@ -15,7 +15,7 @@
     {
       FY: "FY25",
       Category: "FTTB",
-      Supplier: "TECH SOLUTIONS",
+      Supplier: "TECH MINDS",
       POAmount: 500000,
       AmountReceipted: 250000,
       ReceiptingPercentage: 0.5,
@@ -37,7 +37,7 @@
     {
       FY: "FY24",
       Category: "SDC",
-      Supplier: "DABRI GEN",
+      Supplier: "SOLITON",
       POAmount: 180000,
       AmountReceipted: 120000,
       ReceiptingPercentage: 0.66,
@@ -48,7 +48,7 @@
     {
       FY: "FY23",
       Category: "CAPACITY OPTIMIZATION",
-      Supplier: "ELRIS COMMUNICATION",
+      Supplier: "ACL",
       POAmount: 100000,
       AmountReceipted: 100000,
       ReceiptingPercentage: 1,
