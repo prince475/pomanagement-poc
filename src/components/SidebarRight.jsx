@@ -15,7 +15,7 @@ import React from "react";
 const handleDownloadExpiring = (expiringData) => {
   if (expiringData.length === 0) return;
 
-  const headers = ["FY", "Supplier", " AmountReceipted", "POAmount", "ExpirationDate", "DaysToExpiry"];
+  const headers = ["FY", "Category", "Supplier", "AmountReceipted", "POAmount", "DaysToExpiry"];
   const rows = [
     headers.join(","),
     ...expiringData.map((po) =>
