@@ -2,8 +2,8 @@
 
  const mockPOData = [
     {
-      FY: "FY24",
-      Category: "Transport & Access",
+      FY: "FY25",
+      Category: "FFTX",
       Supplier: "ADRIAN KENYA LTD",
       POAmount: 138720,
       AmountReceipted: 138720,
@@ -13,8 +13,8 @@
       ExpirationStatus: "PO has expired"
     },
     {
-      FY: "FY24",
-      Category: "Health & Safety",
+      FY: "FY25",
+      Category: "FTTB",
       Supplier: "TECH SOLUTIONS",
       POAmount: 500000,
       AmountReceipted: 250000,
@@ -24,8 +24,8 @@
       ExpirationStatus: "PO expiring soon"
     },
     {
-      FY: "FY25",
-      Category: "IT & Infrastructure",
+      FY: "FY24",
+      Category: "METRO",
       Supplier: "NEXT GEN",
       POAmount: 300000,
       AmountReceipted: 270000,
@@ -35,8 +35,8 @@
       ExpirationStatus: "PO active"
     },
     {
-      FY: "FY25",
-      Category: "Transport & Access",
+      FY: "FY24",
+      Category: "SDC",
       Supplier: "DABRI GEN",
       POAmount: 180000,
       AmountReceipted: 120000,
@@ -47,7 +47,7 @@
     },
     {
       FY: "FY23",
-      Category: "Health & Safety",
+      Category: "CAPACITY OPTIMIZATION",
       Supplier: "ELRIS COMMUNICATION",
       POAmount: 100000,
       AmountReceipted: 100000,
