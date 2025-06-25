@@ -1,7 +1,7 @@
 // src/components/Footer.jsx
 import React from "react";
 import { motion as Motion } from "framer-motion";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaLinkedin, FaTiktok } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -13,19 +13,19 @@ export default function Footer() {
         className="max-w-6xl mx-auto"
       >
         {/* Main Row: Logo left + Links & Icons right */}
-        <div className="flex flex-col md:flex-row justify-between items-start gap-10">
+        <div className="flex flex-col md:flex-row justify-between items-start gap-10 font-display">
           {/* Far Left: PO TOOL Logo */}
-          <div className="md:w-1/4">
+          {/* <div className="md:w-1/4">
             <div className="text-2xl font-bold uppercase flex items-center gap-2">
               <p className="text-white">PO</p>
               <p className="text-secondary">TOOL</p>
             </div>
-          </div>
+          </div> */}
 
           {/* Far Right: Links + Icons */}
-          <div className="md:w-3/4 flex flex-col gap-10">
+          <div className="md:w-4/4 flex flex-col gap-10">
             {/* Link Columns */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
               {/* Products */}
               <div>
                 <h3 className="text-lg font-semibold mb-4">Products</h3>
@@ -85,13 +85,16 @@ export default function Footer() {
             </div>
 
             {/* Divider + Socials */}
-            <div className="pt-6">
+            <div className="pt-4">
               <hr className="mb-6 border-t border-gray-700" />
               <div className="flex justify-center">
                 <div className="flex gap-6 text-2xl text-gray-300">
+                  <FaFacebook className="hover:text-secondary transition-colors cursor-pointer" />                  
+                  <FaYoutube className="hover:text-secondary transition-colors cursor-pointer" />
+                  <FaLinkedin className="hover:text-secondary transition-colors cursor-pointer" />
                   <FaInstagram className="hover:text-secondary transition-colors cursor-pointer" />
                   <FaTwitter className="hover:text-secondary transition-colors cursor-pointer" />
-                  <FaFacebook className="hover:text-secondary transition-colors cursor-pointer" />
+                  <FaTiktok className="hover:text-secondary transition-colors cursor-pointer" />
                 </div>
               </div>
             </div>
