@@ -118,6 +118,6 @@ SOFTWARE.
 
 ## Author
 
-Built with ❤️ by Prince Daniel
+Prince Daniel
 
 ---
